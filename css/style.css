@@ -1,0 +1,41 @@
+body{
+    background-color:#164B60;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+@keyframes rsotate {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+img{
+    width: 250px;
+    height: 250px;
+    background-color:#DAFFFB;
+    
+}
+h1{
+    color: #DAFFFB;
+    font-size: 40px;
+    animation-name: rsotate;
+    animation-duration: 10s;
+}
+.cheese{
+    
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+.brocolli{
+    animation-name: rsotate;
+    animation-duration: 25s;
+} 
